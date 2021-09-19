@@ -20,5 +20,26 @@ document.querySelectorAll('.image-slider img').forEach(images => {
         // console.log('here clicked new image');
         var src = images.getAttribute('src');
         document.querySelector('.main-home-image').src = src;
-    }
+    };
 });
+
+var swiper = new Swiper(".review-slider", {
+    spaceBetween: 20,
+    pagination: {
+      el: ".swiper-pagination", clickable: true,
+    }, 
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    breakpoints: {
+        0: {
+          slidesPerView: 0,
+        },
+        768: {
+          slidesPerView: 2,
+        }
+    },
+    loop: true,
+    grabCursor: true,
+  });
