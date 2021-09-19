@@ -95,7 +95,7 @@ section {
 .home {
     min-height: 100vh;
     padding-top: 12rem;
-    background: url(./Required-images/home-bg.jpg) no-repeat;
+    background: url(./Required-images/home-bg-1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -246,7 +246,7 @@ section {
 }
 
 .menu {
-    background: url(./Required-images/menu-bg.jpg) no-repeat;
+    background: url(./Required-images/menu-bg-1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -374,6 +374,96 @@ section {
     color: var(--main-color);
     
 }
+
+.swiper-pagination-bullet {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--main-color);
+}
+
+.booking {
+    background: url(./Required-images/book-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.booking form {
+    margin: 0 auto 2rem auto;
+    max-width: 60rem;
+    border-radius: var(--border-radius-hover);
+    padding: 3rem;
+    border: var(--border);
+}
+
+.booking form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    background: none;
+    text-transform: none;
+    color:var(--main-color);
+    border: var(--border);
+    margin: 0.7rem 0;
+}
+
+.booking form .box:focus {
+    border: var(--border-hover);
+}
+
+.booking form textarea {
+    height: 15rem;
+    resize: none;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: var(--main-color);
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: var(--main-color);
+}
+
+.footer .box-container .box a i {
+   padding-right: 0.5rem;
+}
+
+
+.footer .box-container .box a:hover i {
+   padding-right: 2rem;
+}
+
+#mail {
+    text-transform: lowercase;
+}
+
+.footer .credit {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    color: var(--main-color);
+}
+/* 
+.footer .credit span {
+    border-bottom: var(--border-hover);
+} */
 
 
 

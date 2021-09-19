@@ -26,10 +26,11 @@ document.querySelectorAll('.image-slider img').forEach(images => {
 var swiper = new Swiper(".review-slider", {
     spaceBetween: 20,
     pagination: {
-      el: ".swiper-pagination", clickable: true,
+      el: ".swiper-pagination", 
+      clickable: true,
     }, 
     autoplay: {
-        delay: 2500,
+        delay: 7500,
         disableOnInteraction: false,
       },
     breakpoints: {
@@ -38,7 +39,7 @@ var swiper = new Swiper(".review-slider", {
         },
         768: {
           slidesPerView: 2,
-        }
+        },
     },
     loop: true,
     grabCursor: true,
